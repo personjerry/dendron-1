@@ -30,3 +30,21 @@ This is the first line
 	 - harshita joshi: @abc This is a reply
 "
 `;
+
+exports[`GDoc import pod confirmOverwrite to false 1`] = `
+"
+
+## Testing GDoc Pod
+
+This is the first line
+
+
+### Comments
+
+ - harshita joshi:  first
+
+	 replies to this comment: 
+
+	 - harshita joshi: @abc This is a reply
+"
+`;
