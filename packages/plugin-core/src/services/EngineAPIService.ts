@@ -239,6 +239,7 @@ export class EngineAPIService
   }
 
   sync(opts?: DEngineSyncOpts | undefined): Promise<DEngineInitResp> {
+    debugger;
     return this._internalEngine.sync(opts);
   }
 
